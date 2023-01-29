@@ -1,0 +1,137 @@
+#sidebar{
+  /* border-left: 1px solid #ccc;   */
+}
+#container-fl{
+    margin-left: 10px !important;
+}
+.img-polaroid{
+    width: 80px;
+    height: 80px;
+    border-radius: 50% !important;
+}
+#avatar{
+    width: 120px;
+    height: 120px;
+    margin-left: 45px;
+}
+.student_infor{
+    width: 67%;
+    color: rgb(68, 67, 67);
+}
+.student_infor .gmail{
+    text-align: center;
+    margin-left: 37px !important;
+}
+.student_infor #names{
+    /* text-align: center; */
+    color: rgb(77, 76, 76);
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 23px;
+}
+.after_name{
+    padding: 3.5px 8px;
+    display: block;
+    margin-top: 15px;
+    /* line-height: 20px; */
+    font-size: 12px;
+    border: 1px solid rgb(220, 220, 221);
+}
+#text{
+    width: 60%;
+    padding: 10px;
+    display: none;
+    background: wheat;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.muted{
+    display: flex;
+    justify-content: space-between;
+}
+.muted p{
+    padding: 10px 8px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    margin-left: 10px;
+    /* font-size: 10px !important;    */
+}
+.muted p:hover{
+    background: rgb(78, 78, 161);
+    color: white;
+}
+.tabs{
+    display: none;
+    animation: fadeEffect 1s; /* Fading effect takes 1 second */
+}
+/* Go from zero to full opacity */
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}  
+p.active {
+    background-color: rgb(78, 78, 161);
+    color: white;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+/* Style table headers and table data */
+th, td {
+    text-align: center;
+    padding: 16px;
+}
+tr, td{
+    color: gray;
+}
+#fails{
+    color: red !important;
+}
+th:first-child, td:first-child {
+    text-align: left;
+}
+
+/* Zebra-striped table rows */
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+
+.fa-check {
+    color: green;
+}
+
+.fa-remove {
+    color: red;
+}
+.money{
+    color: rgb(206, 115, 115);
+}
+.bank{
+    color: rgb(78, 78, 161);
+}
+.ID{
+    color: rgb(233, 177, 73);
+}
+#msg{
+    font-size: 12px;
+    color: gray;
+}
+#modules{
+    padding: 10px;
+    display: flex !important;
+    /* justify-content: space-between !important; */
+}
+#modules .lien{
+    width: 10%;
+    text-align: center;
+    padding: 5px;
+    box-shadow: 0px 1px 1px 2px #ccc;
+    margin-top: 10px;
+    margin-left: 10px;
+}
