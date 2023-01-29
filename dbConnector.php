@@ -27,8 +27,8 @@ function DbConnector(){
         // Get the main settings from the array we just loaded
         $host = 'localhost';
         $db = 'capstone';
-        $user = 'root';
-        $pass = '';
+        $user = 'capstone';
+        $pass = 'capstone';
 
         // Connect to the database
         $this->link = mysqli_connect($host, $user, $pass,$db);
